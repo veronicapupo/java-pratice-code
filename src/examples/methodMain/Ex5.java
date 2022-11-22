@@ -1,4 +1,4 @@
-package basics.methodMain;
+package examples.methodMain;
 
 public class Ex5 {
     //[1] [2.0] [true] [Veronica]

@@ -1,4 +1,4 @@
-package basics.methodMain;
+package examples.methodMain;
 
 public class Ex3 {
 

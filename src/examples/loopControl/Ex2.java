@@ -1,4 +1,4 @@
-package basics.loopControl;
+package examples.loopControl;
 
 import java.util.Scanner;
 

@@ -1,11 +1,12 @@
 # java-pratice-code
 
 ### Basics
-  - [ ] Method Main
-  - [ ] Primitives Datatypes / Variable Types
-  - [ ] Modifier Types
-  - [ ] Basic Operators
-  - [ ] Loop Control
-  - [ ] Decision Making
-  - [ ] Strings
-  - [ ] Arrays
+
+- [ X ] Method Main
+- [ X ] Primitives Datatypes / Variable Types
+- [ X ] Modifier Types
+- [ X ] Basic Operators
+- [ X ] Loop Control
+- [ ] Decision Making
+- [ ] Strings
+- [ X ] Arrays

@@ -16,14 +16,14 @@ public class Ex1 {
 
         average = ((n1 + n2) / 2);
 
-        if(average <= 4.9){
+        if (average <= 4.9) {
             System.out.println("Disapproved!");
         }
-        if((average >= 5.00) && (average <= 6.9)){
+        if ((average >= 5.00) && (average <= 6.9)) {
             System.out.println("Recovery!");
         }
 
-        if(average >= 7.0){
+        if (average >= 7.0) {
             System.out.println("Aproved!");
         }
 

@@ -13,16 +13,16 @@ public class Ex4 {
 
         int[] v = new int[n];
 
-        for (int i = 0; i < n ; i++) {
+        for (int i = 0; i < n; i++) {
             System.out.println("Enter the number: ");
             v[i] = scan.nextInt();
 
         }
         System.out.println("Negative Numbers: ");
-        for (int i = 0; i < n ; i++) {
-          if(v[i] < 0){
-              System.out.println(v[i]);
-          }
+        for (int i = 0; i < n; i++) {
+            if (v[i] < 0) {
+                System.out.println(v[i]);
+            }
         }
     }
 }

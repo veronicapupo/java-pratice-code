@@ -6,7 +6,7 @@ public class Rent {
     private String email;
 
 
-    public Rent(){
+    public Rent() {
 
     }
 
@@ -35,6 +35,6 @@ public class Rent {
     public String toString() {
         return
                 "name='" + name + '\'' +
-                ", email='" + email + '\'' ;
+                        ", email='" + email + '\'';
     }
 }

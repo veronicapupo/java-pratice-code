@@ -6,34 +6,35 @@ public class Ex2 {
 
     public static void main(String[] args) {
 
-        int p =1, genre, genreF =0;
-        float weight, m100 = 0, mF = 0, mWeight = 0, sum=0;
+        int p = 1, genre, genreF = 0;
+        float weight, m100 = 0, mF = 0, mWeight = 0, sum = 0;
 
         Scanner scan = new Scanner(System.in);
 
 
         /*for(int i=0; i<3; i++)*/
 
-        while(p<3){
+        while (p < 3) {
             System.out.println("\nWhat is your gender? \n1-Feminine \n2-Masculine");
             genre = scan.nextInt();
             System.out.println("\nWhat's your weight?");
             weight = scan.nextFloat();
 
-            if(genre == 2 && weight >100){
+            if (genre == 2 && weight > 100) {
                 m100++;
-                if(weight > weight){
+                if (weight > weight) {
                     weight = mWeight;
                 }
 
             }
-            if(genre == 1){
+            if (genre == 1) {
                 genreF++;
-                sum = sum +weight;
-                mF = sum/3;
+                sum = sum + weight;
+                mF = sum / 3;
             }
 
-        } p++;
+        }
+        p++;
 
 
         System.out.println("\n Quantity feminine: " + genreF);

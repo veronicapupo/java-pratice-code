@@ -15,8 +15,8 @@ public class Ex5 {
         int[] age = new int[n];
         double[] height = new double[n];
 
-        for (int i = 0; i < n ; i++) {
-            System.out.println("Data from " + (i+1) + " person:");
+        for (int i = 0; i < n; i++) {
+            System.out.println("Data from " + (i + 1) + " person:");
             System.out.println("Name: ");
             name[i] = scan.next();
             System.out.println("Age: ");
@@ -27,31 +27,28 @@ public class Ex5 {
         }
 
         double sum = 0.0;
-        for (int i = 0; i < n ; i++) {
 
+        for (int i = 0; i < n; i++) {
             sum = sum + height[i];
-
         }
+
         double mediaHeight = sum / n;
-        System.out.printf("Media Height: %.2f%n " , mediaHeight);
-        
+        System.out.printf("Media Height: %.2f%n ", mediaHeight);
+
         int count = 0;
         for (int i = 0; i < n; i++) {
-            if(age[i] < 16){
+            if (age[i] < 16) {
                 count = count + 1;
             }
-            
         }
 
         double percent = count * 100.0 / n;
-        System.out.printf("People under 16 years old: %.1f%%%n" , percent);
+        System.out.printf("People under 16 years old: %.1f%%%n", percent);
 
         for (int i = 0; i < n; i++) {
-
-            if(age[i] < 16) {
+            if (age[i] < 16) {
                 System.out.println(name[i]);
             }
-
         }
     }
 }

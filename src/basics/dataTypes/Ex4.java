@@ -19,10 +19,6 @@ public class Ex4 {
         double lostdays = (total * 10) / 1440;
 
         System.out.println(" Lost days " + lostdays);
-
-
-
+        System.out.println(" Min days " + min);
     }
-
-
 }
